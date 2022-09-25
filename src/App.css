@@ -13,8 +13,8 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-body {
+  background-color: whitesmoke;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +26,95 @@
 
 .App-link {
   color: #61dafb;
+}
+
+h1 {
+  color: #282c34;
+}
+
+.Syllabe-h1 {
+  font-family: "Century Gothic", serif;
+  font-size: 500%;
+}
+
+.Score-p {
+  font-family: "Century Gothic", serif;
+  font-weight: bold;
+  color: #282c34;
+}
+
+.Timer-button {
+  background-color: lightgray;
+  border: none;
+  border-radius: 8px;
+  color: #282c34;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 150px;
+}
+
+.Start-button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.Red-button {
+  background-color: indianred;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  padding: 15px 25px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 250px;
+}
+
+.Newgame-button {
+  background-color: steelblue;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  padding: 15px 25px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 250px;
+}
+
+.Good-button {
+  background-color: darkseagreen;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  padding: 15px 25px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 250px;
 }
 
 @keyframes App-logo-spin {
