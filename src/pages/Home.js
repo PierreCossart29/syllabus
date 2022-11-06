@@ -7,8 +7,13 @@ function Home() {
       <header className="App-body">
           <h1>Syllabus</h1>
           <Link to="/jeu">
-              <button className="Start-button">
-                Commencer une nouvelle partie
+              <button className="Syllabes-button">
+                Syllabes
+              </button>
+          </Link>
+          <Link to="/jeu-mots">
+              <button className="Mots-button">
+                  Mots
               </button>
           </Link>
       </header>

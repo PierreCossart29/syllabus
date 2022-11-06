@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Jeu from "./pages/Jeu";
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+import JeuMots from "./pages/JeuMots";
 
 export default function App() {
     return (
@@ -12,6 +13,7 @@ export default function App() {
             <Routes>
                 <Route path="/" element={<Home />}/>
                 <Route path="jeu" element={<Jeu />}/>
+                <Route path="jeu-mots" element={<JeuMots />}/>
             </Routes>
         </BrowserRouter>
     );
